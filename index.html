@@ -1,39 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WelcomePage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WelcomePage</title>
 </head>
+
 <body>
-        <!-- Navbar -->
-      
-      <img src="assets/download.png" alt="logo" height="80" width="80">
-      
-       <a href="">Home</a>
-       <a href="">details</a>
-       <a href="">Login</a>
-       <a href="">Payment</a>
-       <a href="">Success</a>
-      <!-- Cards -->
+  <!-- Navbar -->
+  <div
+    style="padding: 10px; background-color: black; font-weight: 400; display: flex; align-items: center; justify-content: space-between;">
+    <img src="assets/logo-movie.png" alt="logo" height="50" width="50">
+
+    <div style="display: flex; align-items: center; flex: 1;">
+      <a href="#" style="color: #fff; margin-right: 10px; text-decoration: none;"><b>Home</b></a>
+      <form>
+
+        <select id="city" name="Location" style="margin-right: 10px; padding: 5px;">
+          <option value="" disabled selected hidden>Select a location</option>
+          <option value="Rajamundry">Rajamundry</option>
+          <option value="Vizag">Vizag</option>
+          <option value="Kakinada">Kakinada</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Ravulapalem">Ravulapalem</option>
+          <option value="Bheemavaram">Bheemavaram</option>
+          <option value="Bengaluru">Bengaluru</option>
+          <option value="Rajanagaram">Rajanagaram</option>
+          <option value="Kovvur">Kovvur</option>
+        </select>
+      </form>
+      <a href="#" style="color: #fff; margin-right: 10px; text-decoration: none;"><b>Login/Register</b></a>
+      <a href="https://yourbookingwebsite.com" style="text-decoration: none;">
+        <input type="button" value="Book Now"
+          style="color: #fff; background-color: #34db66; padding: 5px 10px; border: none; border-radius: 5px;">
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Banner -->
+  <div>
+    <div>
+      <video src="assets/empty_theatre.mp4" autoplay muted loop width="100%" height="100%">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div
+      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff;">
+      <marquee behavior="" direction="down">
+        <h1 style="font-weight: 800; ">Book Your Spot Now </h1>
+      </marquee>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div style="display: flex; gap: 20px;">
+    <div style="flex: 1; border: 1px solid black; border-radius: 10px; padding: 10px; width: 300px;">
+      <img src="assets/animal.webp" alt="Animal" width="300" height="400">
       <div>
-       <img src="assets/sundar1.jpg" alt="Sundar" width="300" height="300">
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, expedita. <a href="">View more</a></p>
+        <h3><b>Animal</b></h3>
+        <p>Hindi, Telugu, Tamil, <a href="">BookNow</a></p>
       </div>
+    </div>
+
+    <div style="flex: 1; border: 1px solid black; border-radius: 10px; padding: 10px; width: 300px;">
+      <img src="assets/Hi-Nanna.jpg" alt="Hi-Nanna" width="300" height="400">
       <div>
-        <img src="assets/Satyanadella2.webp" alt="Sundar" width="300" height="300">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, expedita. <a href="">View more</a></p>
-       </div><div>
-        <img src="assets/timcook3.jpg" alt="Sundar" width="300" height="300">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, expedita. <a href="">View more</a></p>
-       </div><div>
-        <img src="assets/Ratantata4.webp" alt="Sundar" width="300" height="300">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, expedita. <a href="">View more</a></p>
-       </div><div>
-        <img src="assets/Stevejobs5.webp" alt="Sundar" width="300" height="300">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, expedita. <a href="">View more</a></p>
-       </div>
- 
-   
+        <h3><b>Hi-Nanna</b></h3>
+        <p>Hindi, Telugu, Tamil, <a href="">BookNow</a></p>
+      </div>
+    </div>
+
+    <div style="flex: 1; border: 1px solid black; border-radius: 10px; padding: 10px; width: 300px;">
+      <img src="assets/gadar.jpeg" alt="gadar" width="300" height="400">
+      <div>
+        <h3><b>Gadar-3</b></h3>
+        <p>Hindi, Telugu, Tamil, <a href="">BookNow</a></p>
+      </div>
+    </div>
+
+    <div style="flex: 1; border: 1px solid black; border-radius: 10px; padding: 10px; width: 300px;">
+      <img src="assets/tiger3.jpeg" alt="tiger" width="300" height="400">
+      <div>
+        <h3><b>Tiger-3</b></h3>
+        <p>Hindi, Telugu, Tamil, <a href="">BookNow</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
 </body>
+
 </html>
